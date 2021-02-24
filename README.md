@@ -5,7 +5,7 @@ First of all the Double Track Model is defined, then the Single Track model is d
 The project contains more files:
 - Equations.nb is the Mathematica Notebook that contains all the equations used to describe the dynamics of the car;
 - Main.nb is the Mathematica Notebook that contains the simulations of all models;
-- In the folder Car_Parameters there are the parameters of the cars (in .json format).
+- in the folder Car_Parameters there are the parameters of the cars (in .json format).
 
 To run the project is enough to evaluate the file Main.nb, after that will appear a choose dialog with which you can choose the parameters of the car in the folder Car_Parameters. 
 
@@ -13,8 +13,14 @@ The text taken as a reference is [**M. Guiggiani - "The Science of Vehicle Dynam
 
 <h2>Double Track</h2>
 <p>First of all the double model is defined. It is a quite complex model which includes the static toe and the Ackerman steering. It is defined by more than seventy equations which includes the steer angles, the slips, the Magic Formula, the aerodynamic forces and and obviusly all the equations of longitudinal, lateral and vertical dynamics.
+ </p>
   
-
+<h2>Single Track</h2>
+<p>
+The most interesting part concerns the derivation of the Single Track model simplifying the the Double Track model. In fact it is the first that is derived by the second, and not vice versa. 
+The ipotheses made are the following:
+- the Ackerman angle (dynamic toe) is equivalent to zero;
+- the static toe is equal to zero;
 
 </p>
 
