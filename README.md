@@ -5,7 +5,7 @@ First of all the Double Track Model is defined, then the Single Track model is d
 The project contains more files:
 - Equations.nb is the Mathematica Notebook that contains all the equations used to describe the dynamics of the car;
 - Main.nb is the Mathematica Notebook that contains the simulations of all models;
-- In the folder Car_Parameters there are the parameters of the car (in .json format).
+- In the folder Car_Parameters there are the parameters of the cars (in .json format).
 
 To run the project is enough to evaluate the file Main.nb, after that will appear a choose dialog with which you can choose the parameters of the car in the folder Car_Parameters. 
 
