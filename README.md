@@ -9,4 +9,8 @@ The project contains more files:
 
 To run the project is enough to evaluate the file Main.nb, after that will appear a choose dialog with which you can choose the parameters of the car in the folder Car_Parameters. 
 
+The text that is taken as a reference is [**M. Guiggiani - "The Science of Vehicle Dynamics"** ](http://www.dimnp.unipi.it/guiggiani-m/science.html)
+
+
+
 <img src="Images/single/axle1.png">
