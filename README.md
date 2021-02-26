@@ -21,11 +21,16 @@ The most interesting part concerns the derivation of the Single Track model simp
 The ipotheses made are the following:
 - the Ackerman angle (dynamic toe) is equivalent to zero;
 - the static toe is equal to zero;
-
 </p>
 
-
-
+  
+<h2>Linear Single Track</h2>
+<p> </p>
+ 
+```math
+Y1 = C1*α1
+Y2 = C2*α2
+```
 
 
 <img src="Images/single/axle1.png">
