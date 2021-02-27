@@ -17,11 +17,13 @@ The text taken as a reference is [**M. Guiggiani - "The Science of Vehicle Dynam
   
 <h2>Single Track</h2>
 <p>
-The most interesting part concerns the derivation of the Single Track model simplifying the the Double Track model. In fact it is the first that is derived by the second, and not vice versa. 
+The most interesting part concerns the derivation of the Single Track model simplifying the the Double Track model. In fact it is important to underline that the Single Track is obtained simplyfing the Double Track, and not viceversa.
+ 
+
+</p>
 The ipotheses made are the following:
 - the Ackerman angle (dynamic toe) is equivalent to zero;
 - the static toe is equal to zero;
-</p>
 
   
 <h2>Linear Single Track</h2>
