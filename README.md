@@ -32,6 +32,10 @@ To do that numerically some steps have been made. First of all
 
 This leads a unique relationship between lateral force, slip angle and lateral load transfer.
 
+<img src="Images/single/axle_caracth.png">
+
+
+
 <img src="Images/single/axle1.png">
 
 
