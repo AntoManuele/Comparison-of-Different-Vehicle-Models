@@ -25,6 +25,7 @@ The ipotheses made are the following:
 - the static toe is equal to zero;
 
 Under these assumptions are defined the axle characteristics, that are two functions (one per axle) that give the total lateral force of the axle as a function of the slip angle only.
+To do that numerically some steps have been made. First of all 
 
 
 
