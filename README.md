@@ -1,6 +1,6 @@
 # Comparison-of-Different-Vehicle-Models
-The purpose of this work is to make a comparison of Double Track, Single Track and Linear Single Track Model.
-First of all the Double Track Model is defined, then the Single Track model is defined starting from the Double Track, and finally the Linear Single Track Model is obtained simply by linearizing the **axle charactheristic** of the Single Track.
+The purpose of this work is to make a comparison of Double Track, Single Track and Linear Single Track Model, and to show the differences in model behavior, especially when the corners are traveled at different speed.
+First of all the Double Track Model is defined, then the Single Track model is defined starting from the Double Track, and finally the Linear Single Track Model is obtained simply by linearizing the **axle charactheristics** of the Single Track.
 
 The project contains more files:
 - Equations.nb is the Mathematica Notebook that contains all the equations used to describe the dynamics of the car;
@@ -17,15 +17,32 @@ The text taken as a reference is [**M. Guiggiani - "The Science of Vehicle Dynam
   
 <h2>Single Track</h2>
 <p>
-The most interesting part concerns the derivation of the Single Track model simplifying the the Double Track model. In fact it is the first that is derived by the second, and not vice versa. 
+The most interesting part concerns the derivation of the Single Track model by simplification of the Double Track model. In fact it is important to underline that the Single Track is obtained simplyfing the Double Track, and not viceversa.
+</p>
+
 The ipotheses made are the following:
 - the Ackerman angle (dynamic toe) is equivalent to zero;
 - the static toe is equal to zero;
 
-</p>
+Under these assumptions are defined the axle characteristics, that are two functions (one per axle) that give the total lateral force of the axle as a function of the slip angle only.
+To do that numerically some steps have been made. First of all 
 
 
 
 
+This leads a unique relationship between lateral force, slip angle and lateral load transfer.
 
 <img src="Images/single/axle1.png">
+
+
+
+<h2>Linear Single Track</h2>
+<p> </p>
+ 
+```math
+Y1 = C1*α1
+Y2 = C2*α2
+```
+
+
+
