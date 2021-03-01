@@ -63,7 +63,7 @@ For the tests each model travels three curves (left-right-left). The inputs of t
 Anyway the models are first compared at low speed and then at high speed, instead the steer angle is the same for both simulations. 
 
 <h4>Low Speed</h4>
-In this simulation the forward velocity is set 5 m/s for all models. We can see that both the trajectory and the state variables are quite similar.
+In this simulation the forward velocity is set 8 m/s for all models. We can see that both the trajectory and the state variables are quite similar.
 
 
 <figure class="image">
@@ -73,5 +73,20 @@ In this simulation the forward velocity is set 5 m/s for all models. We can see 
 
 <figure class="image">
   <img src="Images/comparison/state_variables_low_speed.png">
+  <figcaption></figcaption>
+</figure>
+
+
+<h4>High Speed</h4>
+In this simulation the forward velocity is set 25 m/s for all models. We can see that both the trajectory and the state variables are quite similar.
+
+
+<figure class="image">
+  <img src="Images/comparison/trajectory_high_speed.png">
+  <figcaption></figcaption>
+</figure>
+
+<figure class="image">
+  <img src="Images/comparison/state_variables_high_speed.png">
   <figcaption></figcaption>
 </figure>
