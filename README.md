@@ -53,7 +53,7 @@ To obtain the Linear Single Track model is sufficient to make the derivative of 
 </figure>
 
 <h2>Comparison</h2>
-For the tests each model travels three curves (left-right-left). The inputs of the model are only the forward velocity and the steer angle, which can be changed in the subsection "Input for Simulation" in Main.nb. There also the time simulation can be modified.
+For the tests each model travels three curves (left-right-left). The inputs of the model are only the forward velocity and the steer angle, which can be changed in the subsection "Input for simulation" in Main.nb. There also the time simulation can be modified.
 Anyway the models are first compared at low speed and then at high speed, instead the steer angle is the same for both simulations. 
 
 <h4>Low Speed</h4>
