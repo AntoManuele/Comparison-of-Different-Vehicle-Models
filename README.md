@@ -11,11 +11,11 @@ To run the project is enough to evaluate the file Main.nb, after that will appea
 
 The text taken as a reference is [**M. Guiggiani - "The Science of Vehicle Dynamics"** ](http://www.dimnp.unipi.it/guiggiani-m/science.html).
 
-<h2>Double Track</h2>
+<h3>Double Track</h3>
 <p>First of all the double model is defined. It is a quite complex model which includes the static toe and the Ackerman steering. It is defined by more than seventy equations which includes the steer angles, the slips, the Magic Formula, the aerodynamic forces and and obviusly all the equations of longitudinal, lateral and vertical dynamics.
  </p>
   
-<h2>Single Track</h2>
+<h3>Single Track</h3>
 <p>
 The most interesting part concerns the derivation of the Single Track model by simplification of the Double Track model. In fact it is important to underline that the Single Track is obtained simplyfing the Double Track, and not viceversa.
 </p>
@@ -31,23 +31,35 @@ The steps to find the axle characteristics are explained in the [text-book](http
   <img src="Images/single/axle_caracth.png">
   <figcaption>Total lateral force for both axles (front in blue and rear in red)</figcaption>
 </figure>
+<br/>
 
 
-
-This leads a unique relationship between lateral force, slip angle and lateral load transfer. It is worth noting that in this way the lateral force of the single track model is totally independent from the speed.
+This leads a unique relationship between lateral force, slip angle and lateral load transfer, as shown in the figure below. It is worth noting that in this way the lateral force of the single track model is totally independent from speed.
 
 <figure class="image">
   <img src="Images/single/axle1.png">
   <figcaption></figcaption>
 </figure>
 
-<h2>Linear Single Track</h2>
-<p> </p>
+Finally the axle characteristic were fitting with Magic Formula.
+
+<figure class="image">
+  <img src="Images/single/axle_fitting.png">
+  <figcaption></figcaption>
+</figure>
+
+
+
+<h3>Linear Single Track</h3>
+To obtain the Linear Single Track model is sufficient to make the derivative of axle characteristic at point zero
  
 ```math
 Y1 = C1*α1
 Y2 = C2*α2
 ```
+<figure class="image">
+  <img src="Images/linear/linearization.png">
+  <figcaption></figcaption>
+</figure>
 
-
-
+<h2>Comparison</h2>
