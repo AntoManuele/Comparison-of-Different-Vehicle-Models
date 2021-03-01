@@ -27,13 +27,6 @@ The ipotheses made are the following:
 Under these assumptions are defined the axle characteristics, that are two functions (one per axle) that give the total lateral force of the axle as a function of the slip angle only. This means that it is the sum of the forces of the left and right wheels, and obviously only one slip angle is considered, which is a sort of average value between the two wheels.
 The steps to find the axle characteristics are explained in the [text-book](http://www.dimnp.unipi.it/guiggiani-m/science.html).
 
-<figure class="image">
-  <img src="Images/single/axle_caracth.png">
-  <figcaption>Total lateral force for both axles (front in blue and rear in red)</figcaption>
-</figure>
-<br/>
-
-
 This leads a unique relationship between lateral force, slip angle and lateral load transfer, as shown in the figure below. It is worth noting that in this way the lateral force of the single track model is totally independent from speed.
 
 <figure class="image">
