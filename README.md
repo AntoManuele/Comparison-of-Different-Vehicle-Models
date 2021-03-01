@@ -11,11 +11,11 @@ To run the project is enough to evaluate the file Main.nb, after that will appea
 
 The text taken as a reference is [**M. Guiggiani - "The Science of Vehicle Dynamics"** ](http://www.dimnp.unipi.it/guiggiani-m/science.html).
 
-<h3>Double Track</h3>
+<h4>Double Track</h4>
 <p>First of all the double model is defined. It is a quite complex model which includes the static toe and the Ackerman steering. It is defined by more than seventy equations which includes the steer angles, the slips, the Magic Formula, the aerodynamic forces and and obviusly all the equations of longitudinal, lateral and vertical dynamics.
  </p>
   
-<h3>Single Track</h3>
+<h4>Single Track</h4>
 <p>
 The most interesting part concerns the derivation of the Single Track model by simplification of the Double Track model. In fact it is important to underline that the Single Track is obtained simplyfing the Double Track, and not viceversa.
 </p>
@@ -50,7 +50,7 @@ Finally the axle characteristic were fitting with Magic Formula.
 
 
 
-<h3>Linear Single Track</h3>
+<h4>Linear Single Track</h4>
 To obtain the Linear Single Track model is sufficient to make the derivative of axle characteristic at point zero.
  
 <figure class="image">
@@ -59,3 +59,19 @@ To obtain the Linear Single Track model is sufficient to make the derivative of 
 </figure>
 
 <h2>Comparison</h2>
+For the tests each model travels three curves (left-right-left). The inputs of the model are only the forward velocity and the steer angle, which can be changed in the subsection "Input for Simulation" in Main.nb. There also the time simulation can be modified.
+Anyway the models are first compared at low speed and then at high speed, instead the steer angle is the same for both simulations. 
+
+<h4>Low Speed</h4>
+In this simulation the forward velocity is set 5 m/s for all models. We can see that both the trajectory and the state variables are quite similar.
+
+
+<figure class="image">
+  <img src="Images/comparison/trajectory_low_speed.png">
+  <figcaption></figcaption>
+</figure>
+
+<figure class="image">
+  <img src="Images/comparison/state_variables_low_speed.png">
+  <figcaption></figcaption>
+</figure>
