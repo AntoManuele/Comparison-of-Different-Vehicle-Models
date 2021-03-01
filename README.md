@@ -32,7 +32,7 @@ Finally the axle characteristics were fitting with Magic Formula.
 
 
 <figure class="image">
-  <img src="Images/single/axle1.png" width="600">
+  <img src="Images/single/axle1.png" width="700">
   <figcaption></figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ Finally the axle characteristics were fitting with Magic Formula.
 
 
 <h4>Linear Single Track</h4>
-To obtain the Linear Single Track model is sufficient to make the derivative of axle characteristic at point zero.
+To obtain the Linear Single Track model is sufficient to make the derivative of axle characteristic at zero point.
  
 <figure class="image">
   <img src="Images/linear/linearization.png" width="900">
