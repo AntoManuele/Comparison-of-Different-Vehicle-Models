@@ -28,12 +28,14 @@ Under these assumptions are defined the axle characteristics, that are two funct
 
 This leads a unique relationship between lateral force, slip angle and lateral load transfer, as shown in the figure below. It is worth noting that in this way the lateral force of the single track model is totally independent from speed.
 
+Finally the axle characteristics were fitting with Magic Formula.
+
+
 <figure class="image">
   <img src="Images/single/axle1.png">
   <figcaption></figcaption>
 </figure>
 
-Finally the axle characteristic were fitting with Magic Formula.
 
 <figure class="image">
   <img src="Images/single/axle_fitting.png">
