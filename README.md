@@ -32,7 +32,7 @@ Finally the axle characteristics were fitting with Magic Formula.
 
 
 <figure class="image">
-  <img src="Images/single/axle1.png" width="700">
+  <img src="Images/single/axle1.png" width="560">
   <figcaption></figcaption>
 </figure>
 
