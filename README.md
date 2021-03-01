@@ -78,8 +78,7 @@ In this simulation the forward velocity is set 8 m/s for all models. We can see 
 
 
 <h4>High Speed</h4>
-In this simulation the forward velocity is set 25 m/s for all models. We can see that both the trajectory and the state variables are quite similar.
-
+In this simulation the forward velocity is set 25 m/s for all models.
 
 <figure class="image">
   <img src="Images/comparison/trajectory_high_speed.png">
