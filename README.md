@@ -51,7 +51,7 @@ Finally the axle characteristic were fitting with Magic Formula.
 
 
 <h3>Linear Single Track</h3>
-To obtain the Linear Single Track model is sufficient to make the derivative of axle characteristic at point zero
+To obtain the Linear Single Track model is sufficient to make the derivative of axle characteristic at point zero.
  
 ```math
 Y1 = C1*α1
