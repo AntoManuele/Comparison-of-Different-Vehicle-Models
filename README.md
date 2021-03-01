@@ -21,17 +21,11 @@ The most interesting part concerns the derivation of the Single Track model by s
 </p>
 
 The ipotheses made are the following:
-- the Ackerman angle (dynamic toe) is equivalent to zero;
+- the Ackerman angle (dynamic toe) is equal to zero;
 - the static toe is equal to zero;
 
-Under these assumptions are defined the axle characteristics, that are two functions (one per axle) that give the total lateral force of the axle as a function of the slip angle only.
-
-
-
-
-
-
-
+Under these assumptions are defined the axle characteristics, that are two functions (one per axle) that give the total lateral force of the axle as a function of the slip angle only. This means that it is the sum of the forces of the left and right wheels, and obviously only one slip angle is considered, which is a sort of average value between the two wheels.
+The steps to find the axle characteristics are explained in the [text-book](http://www.dimnp.unipi.it/guiggiani-m/science.html).
 
 <figure class="image">
   <img src="Images/single/axle_caracth.png">
@@ -40,7 +34,7 @@ Under these assumptions are defined the axle characteristics, that are two funct
 
 
 
-This leads a unique relationship between lateral force, slip angle and lateral load transfer.
+This leads a unique relationship between lateral force, slip angle and lateral load transfer. It is worth noting that in this way the lateral force of the single track model is totally independent from the speed.
 
 <figure class="image">
   <img src="Images/single/axle1.png">
