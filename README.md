@@ -32,13 +32,13 @@ Finally the axle characteristics were fitting with Magic Formula.
 
 
 <figure class="image">
-  <img src="Images/single/axle1.png">
+  <img src="Images/single/axle1.png" width="600">
   <figcaption></figcaption>
 </figure>
 
 
 <figure class="image">
-  <img src="Images/single/axle_fitting.png">
+  <img src="Images/single/axle_fitting.png" width="900">
   <figcaption></figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ Finally the axle characteristics were fitting with Magic Formula.
 To obtain the Linear Single Track model is sufficient to make the derivative of axle characteristic at point zero.
  
 <figure class="image">
-  <img src="Images/linear/linearization.png">
+  <img src="Images/linear/linearization.png" width="900">
   <figcaption></figcaption>
 </figure>
 
@@ -61,25 +61,25 @@ In this simulation the forward velocity is set 8 m/s for all models. We can see 
 
 
 <figure class="image">
-  <img src="Images/comparison/trajectory_low_speed.png">
+  <img src="Images/comparison/trajectory_low_speed.png" width="550"> 
   <figcaption></figcaption>
 </figure>
 
 <figure class="image">
-  <img src="Images/comparison/state_variables_low_speed.png">
+  <img src="Images/comparison/state_variables_low_speed.png" width="1100">
   <figcaption></figcaption>
 </figure>
 
 
 <h4>High Speed</h4>
-In this simulation the forward velocity is set 25 m/s for all models.
+In this simulation the forward velocity is set 25 m/s for all models and in this case things change. While the Linear model is quite similar to the Single Track, the Double Track is completely different from the others, and this confirms that the main approximation is the passage from Double to Single model.
 
 <figure class="image">
-  <img src="Images/comparison/trajectory_high_speed.png">
+  <img src="Images/comparison/trajectory_high_speed.png" width="500">
   <figcaption></figcaption>
 </figure>
 
 <figure class="image">
-  <img src="Images/comparison/state_variables_high_speed.png">
+  <img src="Images/comparison/state_variables_high_speed.png" width="1100">
   <figcaption></figcaption>
 </figure>
