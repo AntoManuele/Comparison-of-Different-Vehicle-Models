@@ -72,7 +72,7 @@ In this simulation the forward velocity is set 8 m/s for all models. We can see 
 
 
 <h4>High Speed</h4>
-In this simulation the forward velocity is set 25 m/s for all models and in this case things change. While the Linear model is quite similar to the Single Track, the Double Track is completely different from the others, and this confirms that the main approximation is the passage from Double to Single model.
+In this simulation the forward velocity is set to 25 m/s for all models and in this case things change. While the Linear model is quite similar to the Single Track, the Double Track is completely different from the others, and this confirms that the main approximation is the passage from Double to Single model.
 
 <figure class="image">
   <img src="Images/comparison/trajectory_high_speed.png" width="500">
